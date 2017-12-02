@@ -15,11 +15,14 @@ public class ArrayCopyByForExample {
 			System.out.print(newIntArray[i] + ", ");
 		}
 		
-		//¹è¿­º¹»ç È¿À²ÀûÀÎ ¹æ¹ı
+		//ë°°ì—´ë³µì‚¬ íš¨ìœ¨ì ì¸ ë°©ë²•
 		int[] newArr=Arrays.copyOf(oldIntArray,oldIntArray.length);
 		for(int i:newArr) {
 			System.out.print(i+" ");
 		}
 		
+	}
+	public void sum() {
+		System.out.println("3 + 4 ="+(3+4));
 	}
 }
