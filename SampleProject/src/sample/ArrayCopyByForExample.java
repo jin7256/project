@@ -20,5 +20,6 @@ public class ArrayCopyByForExample {
 		for(int i:newArr) {
 			System.out.print(i+" ");
 		}
+		
 	}
 }
